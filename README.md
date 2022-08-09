@@ -13,4 +13,7 @@ Includes many screenshots as well as the Notebook file and the resulting output 
 5. Created an IAM user 'gluerole' which I give full s3 permissions and full aws glue permissions
 6. Next I opened the AWS Glue studio and created a new job 
 7. The job source has the Data Catalogue source type with a db 'hackathon-db' and a table 'covid_19.csv'
-8. 
+8. I added an aggregate transformation in the interactive glue studio environment which groups the data once by 'country/region' and again by 'province/state'. The aggregation performed for the grouped data is max cases, max deaths, and max recoveries for both groups.
+9. Finally I choose a target for my results of the transformation to be saved. In this case, the target is the s3 bucket i created 'hackathon-bucket-17'
+10. I fill in the job details with the name 'hackathon-job' and assign the IAM user i created previously to this job
+11. 

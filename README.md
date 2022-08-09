@@ -9,3 +9,4 @@ Includes many screenshots as well as the Notebook file and the resulting output 
 1. Create AWS s3 bucket 'hackathon-bucket-17'
 2. Upload 'covid_19.csv' to my s3 bucket 
 3. Create Database in AWS Glue 'hackathon-db'
+4. Created a crawler 'hackathon-crawler' inside of 'hackathon-db' to crawl data from my s3 bucket
